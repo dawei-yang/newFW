@@ -1,0 +1,2 @@
+vhdl work ../../clksrc_onboard.vhd
+vhdl work ../example_design/clksrc_onboard_exdes.vhd

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/sim/readout_simple_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/sim/readout_top1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/sim/tb_readout_simple_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/sim/tb_readout_top2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/defs/asic_definitions_irs2_carrier_revA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/defs/autoinit_definitions.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/defs/readout_definitions.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/eth/eth.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/eth/eth_head.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/eth/eth_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/eth/ip_udp_rx_block.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/eth/ip_udp_tx_block.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/eth/udp.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_8b10b.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_clk_s6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_ddr_s6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_decode.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_encode.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_fifo_s6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_injv.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_iscan.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_payload.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_revo.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/b2tt/b2tt/b2tt_symbols.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/conc_intfc/source/conc_intfc_pkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/conc_intfc/source/trig_chan_calc.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/aurora_lane.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/aurora_pkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/aurora_tile.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/channel_err_detect.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/channel_init_sm.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/chbond_count_dec.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/err_detect.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/global_logic.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/idle_and_ver_gen.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/klm_aurora.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/klm_aurora_intfc.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/lane_init_sm.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/rx_ll.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/rx_ll_pdu_datapath.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/standard_cc_module.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/sym_dec.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/sym_gen.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/transceiver_wrapper.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/tx_ll.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/tx_ll_control.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_aurora/source/tx_ll_datapath.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_scrod/source/daq_gen_readout.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_scrod/source/frame_gen.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_scrod/source/klm_scrod_pkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_scrod/source/run_ctrl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_scrod/source/sfp_stat_ctrl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_scrod/source/timing_ctrl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/klm_scrod/source/timing_ctrl_pkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/tdc/source/tdc.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/tdc/source/tdc_channel.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/tdc/source/tdc_fifo.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/time_order/source/time_order.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/time_order/source/time_order_pkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/time_order/source/tom_10_to_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/time_order/source/tom_2_to_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/time_order/source/tom_3_to_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/interfaces/klm_scrod/time_order/source/tom_4_to_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/DigitizingLgcTX.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/PedestalManagement.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/ReadoutControl3.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/Readout_Simple.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/SamplingLgc.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/SerialDataRoutDemux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/TrigDecisionLogic2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/WaveformPedcalcDSP.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/WaveformPedsubDSP.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/edge_detect.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/edge_to_pulse_converter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/ethernet_readout_interface.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/klmscint_simple_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/pulse_transition.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/main/trigger_scalers.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/peripherals/Module_ADC_MCP3221_I2C_new.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/peripherals/PedRAMaccess.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/peripherals/SRAMiface2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/peripherals/SRAMscheduler.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/peripherals/clock_enable_generator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/peripherals/clock_gen_A4wDCM.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/peripherals/mppc_bias_dac088s085.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/peripherals/mppc_dacs_wrapper_dac088s085.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/peripherals/tx_dac_control.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/Buf1.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/DFFC.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/IRS3B_Bits8_bus.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/IRS3B_DREG8.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/Inv.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/Mux2.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/NAND2C.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/RCCNT12.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T2_super_dbuff.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T3_SC_16.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T3_SC_32.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T3_SC_4.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T3_SC_8.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T5_DFFC.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T5_DREG12.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T5_SC_2.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T5_sample_cell.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T5_varInv.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_BusBuff12.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_ColBlock.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_ColSel16.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_ColSel2.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_ColSel32.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_ColSel4.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_ColSel64.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_ColSel8.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_DR12_buf.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_DREG11.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_Decode_16.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_Decode_2.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_Decode_32.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_Decode_4.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_Decode_64.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_Decode_8.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_Done_Logic.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC11.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCCINV.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC_ShiftReg12.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC_WReg1.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC_WReg12.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC_WReg16.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC_WReg2.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC_WReg32.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC_WReg4.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC_WReg8.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GCC_WReg_All.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_GDbuf11.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_RowSel.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_RowSelLogic.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_SC_64.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_SREG19.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_SerialCtrl.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_TMK16.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_TMK32.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_TMK64.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_TMK8.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_TMKfeedback.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_TMKpair.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_TPGreg12.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_TimingGen.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_WRcounter8.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_WilkPT.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_bits12_bus.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_dly1.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_dly16.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_dly32.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_dly64.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_dly8.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_encGCC11.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_store_16.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_store_2.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_store_32.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_store_4.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_store_8.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_store_CTRL.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_store_cell.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_store_ch32.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_storebank_512.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/T7_storebank_8x32.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/TX_chan.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/XOR2.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/core2chan.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/sca_passt.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/storebank_2k.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mrich/Dropbox/PMT_readout_Firmware/source/targetx/super_buff.vhdl&quot; into library work</arg>
+</msg>
+
+</messages>
+

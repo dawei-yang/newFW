@@ -1,0 +1,13 @@
+SET_PARAMETER transceiver_tile A
+SET_PARAMETER physical_interface Transceiver
+SET_PARAMETER sgmii_mode 10_100_1000
+SET_PARAMETER sgmii_phy_mode false
+SET_PARAMETER enable_1588 false
+SET_PARAMETER timing_sim false
+SET_PARAMETER component_name pcs_pma
+SET_PARAMETER management_interface true
+SET_PARAMETER auto_negotiation true
+SET_PARAMETER standard 1000BASEX
+SET_ERROR_CODE 2
+SET_ERROR_MSG  CANCEL: Customization cancelled.
+SET_ERROR_TEXT Finished initializing IP model.	
