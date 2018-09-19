@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/isar/klmscint/tb_readout_simple_top_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="asic_definitions_irs2_carrier_reva" />
+            <top_module name="autoinit_definitions" />
+            <top_module name="b2tt_symbols" />
+            <top_module name="conc_intfc_pkg" />
+            <top_module name="klm_scrod_pkg" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="readout_definitions" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_readout_simple_top" />
+            <top_module name="tdc_pkg" />
+            <top_module name="textio" />
+            <top_module name="time_order_pkg" />
+            <top_module name="vcomponents" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group317" type="group">
+      <obj_property name="label">txtrig_bram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/clka" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clka</obj_property>
+         <obj_property name="ObjectShortName">clka</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/wea" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/addra" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addra[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/dina" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dina[49:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[49:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/clkb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clkb</obj_property>
+         <obj_property name="ObjectShortName">clkb</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group360" type="group">
+      <obj_property name="label">u_ro_simple</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">trig</obj_property>
+         <obj_property name="ObjectShortName">trig</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_bram_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">trig_bram_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">trig_bram_addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_bram_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">trig_bram_data[49:0]</obj_property>
+         <obj_property name="ObjectShortName">trig_bram_data[49:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_bram_sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">trig_bram_sel</obj_property>
+         <obj_property name="ObjectShortName">trig_bram_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_rd_clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_fifo_rd_clk</obj_property>
+         <obj_property name="ObjectShortName">qt_fifo_rd_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_rd_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_fifo_rd_en</obj_property>
+         <obj_property name="ObjectShortName">qt_fifo_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_dout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_fifo_dout[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qt_fifo_dout[17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_empty" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_fifo_empty</obj_property>
+         <obj_property name="ObjectShortName">qt_fifo_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_almost_empty" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_fifo_almost_empty</obj_property>
+         <obj_property name="ObjectShortName">qt_fifo_almost_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_evt_rdy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_fifo_evt_rdy</obj_property>
+         <obj_property name="ObjectShortName">qt_fifo_evt_rdy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/smp_cnt" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">smp_cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">smp_cnt[8:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/lookback" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">lookback[8:0]</obj_property>
+         <obj_property name="ObjectShortName">lookback[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/lookback_width" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">lookback_width[6:0]</obj_property>
+         <obj_property name="ObjectShortName">lookback_width[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/busy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_ctime" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">trig_ctime[26:0]</obj_property>
+         <obj_property name="ObjectShortName">trig_ctime[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/run_reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">run_reset</obj_property>
+         <obj_property name="ObjectShortName">run_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trigin" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">trigin</obj_property>
+         <obj_property name="ObjectShortName">trigin</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">trg[1:0]</obj_property>
+         <obj_property name="ObjectShortName">trg[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/smp_cnt_l" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">smp_cnt_l</obj_property>
+         <obj_property name="ObjectShortName">smp_cnt_l</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/lookback_i" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">lookback_i</obj_property>
+         <obj_property name="ObjectShortName">lookback_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/lookback_width_i" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">lookback_width_i</obj_property>
+         <obj_property name="ObjectShortName">lookback_width_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/win_cnt" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">win_cnt</obj_property>
+         <obj_property name="ObjectShortName">win_cnt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/asic_no" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">asic_no</obj_property>
+         <obj_property name="ObjectShortName">asic_no</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/nch" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">nch</obj_property>
+         <obj_property name="ObjectShortName">nch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_hdr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_hdr[1:0]</obj_property>
+         <obj_property name="ObjectShortName">qt_hdr[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/is_first_pack" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">is_first_pack</obj_property>
+         <obj_property name="ObjectShortName">is_first_pack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_axis" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_axis</obj_property>
+         <obj_property name="ObjectShortName">qt_axis</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_chno" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_chno</obj_property>
+         <obj_property name="ObjectShortName">qt_chno</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_rst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_rst</obj_property>
+         <obj_property name="ObjectShortName">qt_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_rd_clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_rd_clk</obj_property>
+         <obj_property name="ObjectShortName">qt_rd_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_din" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_din[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qt_din[17:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_wr_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_wr_en</obj_property>
+         <obj_property name="ObjectShortName">qt_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_rd_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_rd_en</obj_property>
+         <obj_property name="ObjectShortName">qt_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_dout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_dout[17:0]</obj_property>
+         <obj_property name="ObjectShortName">qt_dout[17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_full" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_full</obj_property>
+         <obj_property name="ObjectShortName">qt_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_empty" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_empty</obj_property>
+         <obj_property name="ObjectShortName">qt_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_almost_empty" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_almost_empty</obj_property>
+         <obj_property name="ObjectShortName">qt_almost_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/addrb" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addrb[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/doutb" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">doutb[49:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb[49:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_evt_rdy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_fifo_evt_rdy</obj_property>
+         <obj_property name="ObjectShortName">qt_fifo_evt_rdy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_ftr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">qt_ftr[1:0]</obj_property>
+         <obj_property name="ObjectShortName">qt_ftr[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_ctime_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">trig_ctime_i[26:0]</obj_property>
+         <obj_property name="ObjectShortName">trig_ctime_i[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/asic_bits" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">asic_bits[9:0]</obj_property>
+         <obj_property name="ObjectShortName">asic_bits[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/ro_st" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ro_st</obj_property>
+         <obj_property name="ObjectShortName">ro_st</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/tdc1_trg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">tdc1_trg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">tdc1_trg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/internal_trigger" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">internal_trigger</obj_property>
+         <obj_property name="ObjectShortName">internal_trigger</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/internal_trigger_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">internal_trigger_out</obj_property>
+         <obj_property name="ObjectShortName">internal_trigger_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_readout_simple_top/uut/internal_readctrl_trigger" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">internal_readctrl_trigger</obj_property>
+         <obj_property name="ObjectShortName">internal_readctrl_trigger</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

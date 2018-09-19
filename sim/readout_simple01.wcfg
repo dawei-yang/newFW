@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/isar/klmscint/tb_readout_simple_top_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="asic_definitions_irs2_carrier_reva" />
+            <top_module name="autoinit_definitions" />
+            <top_module name="b2tt_symbols" />
+            <top_module name="conc_intfc_pkg" />
+            <top_module name="klm_scrod_pkg" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="readout_definitions" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_readout_simple_top" />
+            <top_module name="tdc_pkg" />
+            <top_module name="textio" />
+            <top_module name="time_order_pkg" />
+            <top_module name="vcomponents" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="174" />
+   <wvobject fp_name="/tb_readout_simple_top/fpga_logic_clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fpga_logic_clock</obj_property>
+      <obj_property name="ObjectShortName">fpga_logic_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_do" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_do[15:0]</obj_property>
+      <obj_property name="ObjectShortName">busa_do[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_do" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_do[15:0]</obj_property>
+      <obj_property name="ObjectShortName">busb_do[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/shout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">shout[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc1_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc1_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc1_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc2_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc2_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc2_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc3_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc3_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc3_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc4_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc4_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc4_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc5_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc5_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc5_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc6_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc6_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc6_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc7_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc7_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc7_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc8_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc8_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc8_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc9_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc9_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc9_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc10_trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc10_trg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc10_trg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc_done" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc_done[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc_done[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc_mon_timing" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc_mon_timing[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc_mon_timing[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/ram_io" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_io[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_io[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sda_mon" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sda_mon</obj_property>
+      <obj_property name="ObjectShortName">sda_mon</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/rj45_ack_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rj45_ack_p</obj_property>
+      <obj_property name="ObjectShortName">rj45_ack_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/rj45_ack_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rj45_ack_n</obj_property>
+      <obj_property name="ObjectShortName">rj45_ack_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/rj45_trg_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rj45_trg_p</obj_property>
+      <obj_property name="ObjectShortName">rj45_trg_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/rj45_trg_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rj45_trg_n</obj_property>
+      <obj_property name="ObjectShortName">rj45_trg_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/rj45_rsv_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rj45_rsv_p</obj_property>
+      <obj_property name="ObjectShortName">rj45_rsv_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/rj45_rsv_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rj45_rsv_n</obj_property>
+      <obj_property name="ObjectShortName">rj45_rsv_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/rj45_clk_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rj45_clk_p</obj_property>
+      <obj_property name="ObjectShortName">rj45_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/rj45_clk_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rj45_clk_n</obj_property>
+      <obj_property name="ObjectShortName">rj45_clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgttxfault" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mgttxfault[1:1]</obj_property>
+      <obj_property name="ObjectShortName">mgttxfault[1:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtmod0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtmod0[1:1]</obj_property>
+      <obj_property name="ObjectShortName">mgtmod0[1:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtlos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtlos[1:1]</obj_property>
+      <obj_property name="ObjectShortName">mgtlos[1:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgttxdis" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mgttxdis[1:1]</obj_property>
+      <obj_property name="ObjectShortName">mgttxdis[1:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtmod2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtmod2[1:1]</obj_property>
+      <obj_property name="ObjectShortName">mgtmod2[1:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtmod1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtmod1[1:1]</obj_property>
+      <obj_property name="ObjectShortName">mgtmod1[1:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtrxp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtrxp</obj_property>
+      <obj_property name="ObjectShortName">mgtrxp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtrxn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtrxn</obj_property>
+      <obj_property name="ObjectShortName">mgtrxn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgttxp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mgttxp</obj_property>
+      <obj_property name="ObjectShortName">mgttxp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgttxn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mgttxn</obj_property>
+      <obj_property name="ObjectShortName">mgttxn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/status_fake" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">status_fake</obj_property>
+      <obj_property name="ObjectShortName">status_fake</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/control_fake" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">control_fake</obj_property>
+      <obj_property name="ObjectShortName">control_fake</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtclk0p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtclk0p</obj_property>
+      <obj_property name="ObjectShortName">mgtclk0p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtclk0n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtclk0n</obj_property>
+      <obj_property name="ObjectShortName">mgtclk0n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtclk1p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtclk1p</obj_property>
+      <obj_property name="ObjectShortName">mgtclk1p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/mgtclk1n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mgtclk1n</obj_property>
+      <obj_property name="ObjectShortName">mgtclk1n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/ex_trigger_mb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ex_trigger_mb</obj_property>
+      <obj_property name="ObjectShortName">ex_trigger_mb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/ex_trigger_scrod" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ex_trigger_scrod</obj_property>
+      <obj_property name="ObjectShortName">ex_trigger_scrod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/bus_regclr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bus_regclr</obj_property>
+      <obj_property name="ObjectShortName">bus_regclr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_wr_addrclr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_wr_addrclr</obj_property>
+      <obj_property name="ObjectShortName">busa_wr_addrclr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_rd_ena" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_rd_ena</obj_property>
+      <obj_property name="ObjectShortName">busa_rd_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_rd_rowsel_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_rd_rowsel_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">busa_rd_rowsel_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/nbusa_rd_rowsel_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nbusa_rd_rowsel_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nbusa_rd_rowsel_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_rd_colsel_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_rd_colsel_s[5:0]</obj_property>
+      <obj_property name="ObjectShortName">busa_rd_colsel_s[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/nbusa_rd_colsel_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nbusa_rd_colsel_s[5:0]</obj_property>
+      <obj_property name="ObjectShortName">nbusa_rd_colsel_s[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_clr</obj_property>
+      <obj_property name="ObjectShortName">busa_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_ramp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_ramp</obj_property>
+      <obj_property name="ObjectShortName">busa_ramp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_samplesel_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_samplesel_s[4:0]</obj_property>
+      <obj_property name="ObjectShortName">busa_samplesel_s[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/nbusa_samplesel_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nbusa_samplesel_s[4:0]</obj_property>
+      <obj_property name="ObjectShortName">nbusa_samplesel_s[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_sr_clear" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_sr_clear</obj_property>
+      <obj_property name="ObjectShortName">busa_sr_clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_sr_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_sr_sel</obj_property>
+      <obj_property name="ObjectShortName">busa_sr_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_wr_addrclr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_wr_addrclr</obj_property>
+      <obj_property name="ObjectShortName">busb_wr_addrclr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_rd_ena" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_rd_ena</obj_property>
+      <obj_property name="ObjectShortName">busb_rd_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_rd_rowsel_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_rd_rowsel_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">busb_rd_rowsel_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_rd_colsel_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_rd_colsel_s[5:0]</obj_property>
+      <obj_property name="ObjectShortName">busb_rd_colsel_s[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_clr</obj_property>
+      <obj_property name="ObjectShortName">busb_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_ramp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_ramp</obj_property>
+      <obj_property name="ObjectShortName">busb_ramp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_samplesel_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_samplesel_s[4:0]</obj_property>
+      <obj_property name="ObjectShortName">busb_samplesel_s[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_sr_clear" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_sr_clear</obj_property>
+      <obj_property name="ObjectShortName">busb_sr_clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_sr_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_sr_sel</obj_property>
+      <obj_property name="ObjectShortName">busb_sr_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sin[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sin[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/pclk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pclk[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pclk[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sclk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sclk[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/wl_clk_n" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wl_clk_n[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wl_clk_n[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/wl_clk_p" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wl_clk_p[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wl_clk_p[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/wr1_ena" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr1_ena[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr1_ena[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/wr2_ena" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr2_ena[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr2_ena[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sstin_n" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sstin_n[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sstin_n[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sstin_p" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sstin_p[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sstin_p[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sr_clock" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sr_clock[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sr_clock[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/samplesel_any" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">samplesel_any[9:0]</obj_property>
+      <obj_property name="ObjectShortName">samplesel_any[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_sck_dac" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_sck_dac</obj_property>
+      <obj_property name="ObjectShortName">busa_sck_dac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busa_din_dac" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busa_din_dac</obj_property>
+      <obj_property name="ObjectShortName">busa_din_dac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_sck_dac" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_sck_dac</obj_property>
+      <obj_property name="ObjectShortName">busb_sck_dac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/busb_din_dac" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busb_din_dac</obj_property>
+      <obj_property name="ObjectShortName">busb_din_dac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc_cs_dac" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc_cs_dac[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc_cs_dac[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/tdc_amux_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tdc_amux_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc_amux_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/top_amux_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">top_amux_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">top_amux_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/ram_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_a[21:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_a[21:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/ram_ce1n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_ce1n</obj_property>
+      <obj_property name="ObjectShortName">ram_ce1n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/ram_ce2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_ce2</obj_property>
+      <obj_property name="ObjectShortName">ram_ce2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/ram_oen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_oen</obj_property>
+      <obj_property name="ObjectShortName">ram_oen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/ram_wen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_wen</obj_property>
+      <obj_property name="ObjectShortName">ram_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/scl_mon" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl_mon</obj_property>
+      <obj_property name="ObjectShortName">scl_mon</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_0[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_3[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_3[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_4[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_4[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_5[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_5[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_6[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_6[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_7[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_7[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_8[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_8[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_9[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_9[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_a[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_a[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_b[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_b[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_c[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_c[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_d[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_d[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_e" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_e[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_e[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sa_val_f" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa_val_f[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_val_f[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sr_clk_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sr_clk_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sr_clk_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/fifo_wr_din_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_wr_din_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_din_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/bit_no" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">bit_no</obj_property>
+      <obj_property name="ObjectShortName">bit_no</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sr_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sr_sel</obj_property>
+      <obj_property name="ObjectShortName">sr_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/trigger" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trigger</obj_property>
+      <obj_property name="ObjectShortName">trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/internal_output_registers" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">internal_output_registers[127:0]</obj_property>
+      <obj_property name="ObjectShortName">internal_output_registers[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/readout_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">readout_reset</obj_property>
+      <obj_property name="ObjectShortName">readout_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/smp_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">smp_reset</obj_property>
+      <obj_property name="ObjectShortName">smp_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/regno" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">regno</obj_property>
+      <obj_property name="ObjectShortName">regno</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/run_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">run_reset</obj_property>
+      <obj_property name="ObjectShortName">run_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/autoinit_rcl_wr_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">autoinit_rcl_wr_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">autoinit_rcl_wr_counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/pmt1_v" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pmt1_v[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pmt1_v[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/pmt2_v" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pmt2_v[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pmt2_v[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/pmtin1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pmtin1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pmtin1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/pmtin2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pmtin2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pmtin2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/sstin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sstin</obj_property>
+      <obj_property name="ObjectShortName">sstin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/nramp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nramp</obj_property>
+      <obj_property name="ObjectShortName">nramp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/fpga_logic_clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">fpga_logic_clock_period</obj_property>
+      <obj_property name="ObjectShortName">fpga_logic_clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trig</obj_property>
+      <obj_property name="ObjectShortName">trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_bram_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trig_bram_addr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">trig_bram_addr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_bram_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trig_bram_data[49:0]</obj_property>
+      <obj_property name="ObjectShortName">trig_bram_data[49:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_bram_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trig_bram_sel</obj_property>
+      <obj_property name="ObjectShortName">trig_bram_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_rd_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_fifo_rd_clk</obj_property>
+      <obj_property name="ObjectShortName">qt_fifo_rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">qt_fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_fifo_dout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">qt_fifo_dout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">qt_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_almost_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_fifo_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">qt_fifo_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_fifo_evt_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_fifo_evt_rdy</obj_property>
+      <obj_property name="ObjectShortName">qt_fifo_evt_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/smp_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">smp_cnt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">smp_cnt[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/lookback" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lookback[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lookback[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/lookback_width" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lookback_width[6:0]</obj_property>
+      <obj_property name="ObjectShortName">lookback_width[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_ctime" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trig_ctime[26:0]</obj_property>
+      <obj_property name="ObjectShortName">trig_ctime[26:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/run_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">run_reset</obj_property>
+      <obj_property name="ObjectShortName">run_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trigin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trigin</obj_property>
+      <obj_property name="ObjectShortName">trigin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">trg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/smp_cnt_l" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">smp_cnt_l</obj_property>
+      <obj_property name="ObjectShortName">smp_cnt_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/lookback_i" type="other" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">lookback_i</obj_property>
+      <obj_property name="ObjectShortName">lookback_i</obj_property>
+      <obj_property name="label">lookback_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/lookback_width_i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">lookback_width_i</obj_property>
+      <obj_property name="ObjectShortName">lookback_width_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/win_cnt" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">win_cnt</obj_property>
+      <obj_property name="ObjectShortName">win_cnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/asic_no" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">asic_no</obj_property>
+      <obj_property name="ObjectShortName">asic_no</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/nch" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">nch</obj_property>
+      <obj_property name="ObjectShortName">nch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_hdr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_hdr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">qt_hdr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/is_first_pack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">is_first_pack</obj_property>
+      <obj_property name="ObjectShortName">is_first_pack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_axis" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_axis</obj_property>
+      <obj_property name="ObjectShortName">qt_axis</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_chno" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_chno</obj_property>
+      <obj_property name="ObjectShortName">qt_chno</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_rst</obj_property>
+      <obj_property name="ObjectShortName">qt_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_rd_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_rd_clk</obj_property>
+      <obj_property name="ObjectShortName">qt_rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_din[17:0]</obj_property>
+      <obj_property name="ObjectShortName">qt_din[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_wr_en</obj_property>
+      <obj_property name="ObjectShortName">qt_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_rd_en</obj_property>
+      <obj_property name="ObjectShortName">qt_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_dout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">qt_dout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_full</obj_property>
+      <obj_property name="ObjectShortName">qt_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_empty</obj_property>
+      <obj_property name="ObjectShortName">qt_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_almost_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">qt_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/qt_ftr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qt_ftr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">qt_ftr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/trig_ctime_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">trig_ctime_i[26:0]</obj_property>
+      <obj_property name="ObjectShortName">trig_ctime_i[26:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/asic_bits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">asic_bits[9:0]</obj_property>
+      <obj_property name="ObjectShortName">asic_bits[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_ro_simple/ro_st" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ro_st</obj_property>
+      <obj_property name="ObjectShortName">ro_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/clka" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/wea" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/addra" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addra[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/dina" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dina[49:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[49:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/clkb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/addrb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrb[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_readout_simple_top/uut/u_txtrg_bram/doutb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">doutb[49:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[49:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

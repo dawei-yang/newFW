@@ -1,0 +1,23 @@
+source/interfaces/klm_scrod/time_order/source/time_order_pkg.vhd:    constant TO_NUM_LANES       : integer   := 10; -- number of ASICS
+source/interfaces/klm_scrod/time_order/source/time_order_pkg.vhd:    constant TO_LANE_BITS       : integer   := INTEGER(CEIL(LOG2(REAL(TO_NUM_LANES))));
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:-- Time order and merge (TOM) TO_NUM_LANES inputs into a single output. The empty flags
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    src_epty                    : in std_logic_vector(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    src_re                      : out std_logic_vector(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    constant LANE_BITS          : integer := INTEGER(CEIL(LOG2(REAL(TO_NUM_LANES))));--! replace this with TO_LANE_BITS from time_order_pkg.
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    signal ein_t                : to_mape_type(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    signal cin_t                : to_mapc_type(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    signal din_t                : to_mapd_type(1 to TO_NUM_LANES);    
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    signal one_hot_ch_t         : std_logic_vector(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    signal src_re_d0            : std_logic_vector(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    signal src_re_q0            : std_logic_vector(1 to TO_NUM_LANES)          := (others => '0');
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    signal out_cmp_vec          : std_logic_vector(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    signal rdfail               : std_logic_vector(1 to TO_NUM_LANES)     := (others => '0');    
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    for N in 1 to TO_NUM_LANES generate
+source/interfaces/klm_scrod/time_order/source/time_order.vhd:    one_hot_ch_t <= TO_CH2ONEHOT(cmin(cmin'length-1 downto cmin'length-LANE_BITS),TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        src_epty                    : in std_logic_vector(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        src_re                      : out std_logic_vector(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    for I in 1 to TO_NUM_LANES generate
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        src_epty                : in std_logic_vector(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        src_re                  : out std_logic_vector(1 to TO_NUM_LANES);
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    for I in 1 to TO_NUM_LANES generate
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    for I in 1 to TO_NUM_LANES generate

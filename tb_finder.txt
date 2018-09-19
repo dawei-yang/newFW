@@ -1,0 +1,106 @@
+source/main/klmscint_top.vhd:	--	TDC_TRG							 : tb_vec_type;
+source/main/klmscint_top.vhd:	signal internal_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:	signal internal_ext_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:	signal internal_ext_TXDCTRIG_q0 : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:	signal internal_ext_TXDCTRIG_q1 : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:	signal internal_ext_TRIGDEC_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here- they will be extended even more here
+source/main/klmscint_top.vhd:signal internal_TXDCTRIG_buf : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:signal trg_l_1:tb_vec_type;
+source/main/klmscint_top.vhd:signal trg_l_2:tb_vec_type;
+source/main/klmscint_top.vhd:signal trg_l_3:tb_vec_type;
+source/main/klmscint_top.vhd:signal trg_l_4:tb_vec_type;
+source/main/klmscint_top.vhd:signal trg_l_5:tb_vec_type;
+source/main/klmscint_top.vhd:    target_tb  => internal_TXDCTRIG,		--                 : in tb_vec_type; 
+source/main/TrigDecisionLogic2.vhd:			  tb : in  tb_vec_type;
+source/main/klmscint_simple_top.vhd:		TDC_TRG								: tb_vec_type;
+source/main/klmscint_simple_top.vhd:	signal internal_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:	signal internal_ext_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:	signal internal_ext_TXDCTRIG_q0 : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:	signal internal_ext_TXDCTRIG_q1 : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:	signal internal_ext_TRIGDEC_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here- they will be extended even more here
+source/main/klmscint_simple_top.vhd:signal internal_TXDCTRIG_buf : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:signal trg_l_1:tb_vec_type;
+source/main/klmscint_simple_top.vhd:signal trg_l_2:tb_vec_type;
+source/main/klmscint_simple_top.vhd:signal trg_l_3:tb_vec_type;
+source/main/klmscint_simple_top.vhd:signal trg_l_4:tb_vec_type;
+source/main/klmscint_simple_top.vhd:signal trg_l_5:tb_vec_type;
+source/main/klmscint_simple_top.vhd:    target_tb  => internal_TXDCTRIG,		--                 : in tb_vec_type; 
+source/main/backup/klmscint_simple_top.vhd:		TDC_TRG							 : tb_vec_type;
+source/main/backup/klmscint_simple_top.vhd:	signal internal_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:	signal internal_ext_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:	signal internal_ext_TXDCTRIG_q0 : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:	signal internal_ext_TXDCTRIG_q1 : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:	signal internal_ext_TRIGDEC_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here- they will be extended even more here
+source/main/backup/klmscint_simple_top.vhd:signal internal_TXDCTRIG_buf : tb_vec_type;-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:signal trg_l_1:tb_vec_type;
+source/main/backup/klmscint_simple_top.vhd:signal trg_l_2:tb_vec_type;
+source/main/backup/klmscint_simple_top.vhd:signal trg_l_3:tb_vec_type;
+source/main/backup/klmscint_simple_top.vhd:signal trg_l_4:tb_vec_type;
+source/main/backup/klmscint_simple_top.vhd:signal trg_l_5:tb_vec_type;
+source/main/backup/klmscint_simple_top.vhd:    target_tb  => internal_TXDCTRIG,		--                 : in tb_vec_type; 
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        tb                          : in tb_vec_type;
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal tb                       : tb_vec_type                           := (others => "00000");
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tb_vec_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(5 downto 1);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    tb                              : in tb_vec_type;
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    exttb                           : out tb_vec_type;
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        tb                              : in tb_vec_type;
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        exttb                           : out tb_vec_type;
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal tb                           : tb_vec_type                           := (others => "00000");
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal exttb                        : tb_vec_type                           := (others => "00000");
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    target_tb                   : in tb_vec_type;
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    exttb                       : out tb_vec_type;
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        tb                      : in tb_vec_type;
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        exttb                   : out tb_vec_type;    
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:	 signal trigasic_bram_wr_data_i:tb_vec_type;--trigasic_bram_wr_data_type;
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:	 signal exttb_i                  : tb_vec_type;  
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        target_tb                   : tb_vec_type;
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        exttb                       : out tb_vec_type;
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal tb                       : tb_vec_type                           := (others => "00000");
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal exttb                    : tb_vec_type;
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal target_tb                : tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/source/tb_gen.vhd:    exttb                       : in tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/source/tb_gen.vhd:    inttb                       : out tb_vec_type);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    target_tb                   : in tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    exttb                       : out tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        target_tb               : in tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        exttb                   : out tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    signal target_tb_i          : tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    signal inttb                : tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:   signal exttb_i   : tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/sim/source/tb_gen_tb.vhd:        exttb                       : in tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/sim/source/tb_gen_tb.vhd:        inttb                       : out tb_vec_type);
+source/interfaces/klm_scrod/klm_scrod/sim/source/tb_gen_tb.vhd:    signal exttb        : tb_vec_type;    
+source/interfaces/klm_scrod/klm_scrod/sim/source/tb_gen_tb.vhd:    signal inttb        : tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:        target_tb                   : in tb_vec_type; 
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal target_tb                : tb_vec_type;
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal scrod_target_tb          : tb_vec_type;
+sim/ncvhdl.log:    target_tb                   : in tb_vec_type;
+sim/ncvhdl.log:    exttb                       : out tb_vec_type;
+sim/ncvhdl.log:    exttb                       : in tb_vec_type;
+sim/ncvhdl.log:    inttb                       : out tb_vec_type);
+sim/readout_top1.vhd:	--	TDC_TRG							 : tb_vec_type;
+sim/readout_top1.vhd:	signal internal_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:	signal internal_ext_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:	signal internal_ext_TXDCTRIG_q0 : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:	signal internal_ext_TXDCTRIG_q1 : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:	signal internal_ext_TRIGDEC_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here- they will be extended even more here
+sim/readout_top1.vhd:--	signal internal_TXDCTRIG_buf : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:signal trg_l_1:tb_vec_type;
+sim/readout_top1.vhd:signal trg_l_2:tb_vec_type;
+sim/readout_top1.vhd:signal trg_l_3:tb_vec_type;
+sim/readout_top1.vhd:signal trg_l_4:tb_vec_type;
+sim/readout_top1.vhd:signal trg_l_5:tb_vec_type;
+sim/readout_top1.vhd:--    target_tb  => internal_TXDCTRIG,		--                 : in tb_vec_type; 
+sim/readout_simple_top.vhd:	--	TDC_TRG							 : tb_vec_type;
+sim/readout_simple_top.vhd:	signal internal_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:	signal internal_ext_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:	signal internal_ext_TXDCTRIG_q0 : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:	signal internal_ext_TXDCTRIG_q1 : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:	signal internal_ext_TRIGDEC_TXDCTRIG : tb_vec_type;-- All triger bits from all ASICs are here- they will be extended even more here
+sim/readout_simple_top.vhd:	signal internal_TXDCTRIG_buf : tb_vec_type;-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:signal trg_l_1:tb_vec_type;
+sim/readout_simple_top.vhd:signal trg_l_2:tb_vec_type;
+sim/readout_simple_top.vhd:signal trg_l_3:tb_vec_type;
+sim/readout_simple_top.vhd:signal trg_l_4:tb_vec_type;
+sim/readout_simple_top.vhd:signal trg_l_5:tb_vec_type;
+sim/readout_simple_top.vhd:--    target_tb  => internal_TXDCTRIG,		--                 : in tb_vec_type; 

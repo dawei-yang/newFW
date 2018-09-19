@@ -1,0 +1,1 @@
+-intstyle "ise" -lib "secureip" -o "/home/isar/klmscint/tb_readout_simple_top_isim_beh.exe" -prj "/home/isar/klmscint/tb_readout_simple_top_beh.prj" "work.tb_readout_simple_top" 

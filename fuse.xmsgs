@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/isar/klmscint/source/interfaces/eth/ip_udp_tx_block.vhd" Line 140: Actual for formal port <arg fmt="%s" index="1">rst</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/isar/klmscint/source/interfaces/eth/eth_head.vhd" Line 109: Actual for formal port <arg fmt="%s" index="1">rst</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/isar/klmscint/sim/readout_simple_top.vhd" Line 1050: Actual for formal port <arg fmt="%s" index="1">din</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/isar/klmscint/sim/readout_simple_top.vhd" Line 1573: Actual for formal port <arg fmt="%s" index="1">c1</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/isar/klmscint/sim/readout_simple_top.vhd" Line 1676: Actual for formal port <arg fmt="%s" index="1">d</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/isar/klmscint/sim/readout_simple_top.vhd" Line 1803: Actual for formal port <arg fmt="%s" index="1">c</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/isar/klmscint/sim/readout_simple_top.vhd" Line 1842: Actual for formal port <arg fmt="%s" index="1">dig_win_ena</arg> is neither a static name nor a globally static expression
+</msg>
+
+</messages>
+

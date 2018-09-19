@@ -1,0 +1,47 @@
+Release 14.7 ngcbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngcbuild.exe -dd
+C:/Users/Kevin/Dropbox/PMT_readout_Firmware/_ngo -sd
+ipcore -sd ipcore/pcs_pma_s6_gtpwizard/implement -p xc6slx150t-fgg676-3 -i
+C:\Users\Kevin\Dropbox\PMT_readout_Firmware\klmscint_top.
+ngc
+C:\Users\Kevin\Dropbox\PMT_readout_Firmware\klmscint_top_
+cs.ngc
+
+Reading NGO file
+"C:/Users/Kevin/Dropbox/PMT_readout_Firmware/klmscint_top
+.ngc" ...
+Loading design module "ipcore/trig_fifo.ngc"...
+Loading design module "ipcore/daq_fifo.ngc"...
+Loading design module "ipcore/runctrl_fifo_w32_r32.ngc"...
+Loading design module "ipcore/kpp_trig_fifo1.ngc"...
+Loading design module "ipcore/cmdrxmux_w32r32.ngc"...
+Loading design module "ipcore/udp_wavtx_fifo_w32r8.ngc"...
+Loading design module "ipcore/udp_stattx_fifo_wr32r8.ngc"...
+Loading design module "ipcore/qt_fifo.ngc"...
+Loading design module "ipcore/rcl_autoinit_fifo.ngc"...
+Loading design module "ipcore/txtrig_bram.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4483916 kilobytes
+
+Writing NGC file
+"C:/Users/Kevin/Dropbox/PMT_readout_Firmware/klmscint_top
+_cs.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file
+"C:/Users/Kevin/Dropbox/PMT_readout_Firmware/klmscint_top
+_cs.blc"...

@@ -1,0 +1,81 @@
+source/main/klmscint_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/main/klmscint_simple_top.vhd:--Futher changes made in conc_intfc.vhd and tdc.vhd on target_tb, target_tb16, tb_ and exttb
+source/main/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TX_NUM_SAN); 
+source/main/backup/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    target_tb16                 : in std_logic_vector(1 to TX_NUM_SAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        tb16                    => target_tb16,
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:            tb16                    => target_tb16(I));
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        target_tb16                 => target_tb16,
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        target_tb16             : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    signal target_tb16_i        : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:target_tb16_i<=target_tb16;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:--                O               => target_tb16_i(I),
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:--                I               => target_tb16(I)
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        target_tb16             => target_tb16_i,
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);         
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal scrod_target_tb16        : std_logic_vector(1 to TDC_NUM_CHAN);    
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:            tb16                    => target_tb16(I));
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:        target_tb16                 => scrod_target_tb16,
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    scrod_target_tb16 <= target_tb16;
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<1>     LOC= "N2"; #TDC1_TRG_16 
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<2>     LOC= "AD4"; #TDC2_TRG_16 
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<3>     LOC= "Y12";  #TDC3_TRG_16 
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<4>      LOC= "K8";  #TDC4_TRG_16 
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<5>      LOC= "U8"; #TDC5_TRG_16 
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<6>      LOC= "AD26"; #TDC6_TRG_16 
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<7>      LOC= "AA15"; #TDC7_TRG_16 
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<8>      LOC= "AB21"; #TDC8_TRG_16 
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<9>      LOC= "N19"; #TDC9_TRG_16 
+source/interfaces/klm_scrod/klm_scrod/constraint/klm_scrod.ucf:NET target_tb16<10>     LOC= "U20"; #TDC10_TRG_16 
+sim/ncvhdl.log:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+sim/readout_top1.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+sim/readout_simple_top.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/main/klmscint_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/main/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/main/backup/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        target_tb16             : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    signal target_tb16_i        : std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);         
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal scrod_target_tb16        : std_logic_vector(1 to TDC_NUM_CHAN);    
+NUM_CHAN.txt:sim/ncvhdl.log:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:sim/readout_top1.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:sim/readout_simple_top.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/main/klmscint_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/main/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/main/backup/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        target_tb16             : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    signal target_tb16_i        : std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);         
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal scrod_target_tb16        : std_logic_vector(1 to TDC_NUM_CHAN);    
+NUM_CHAN.txt:sim/ncvhdl.log:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:sim/readout_top1.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:sim/readout_simple_top.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/main/klmscint_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/main/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/main/backup/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        target_tb16             : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    signal target_tb16_i        : std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);         
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal scrod_target_tb16        : std_logic_vector(1 to TDC_NUM_CHAN);    
+NUM_CHAN.txt:sim/ncvhdl.log:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+NUM_CHAN.txt:sim/readout_top1.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+NUM_CHAN.txt:sim/readout_simple_top.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 

@@ -1,0 +1,192 @@
+source/main/klmscint_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/main/klmscint_simple_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/main/backup/klmscint_simple_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        tb16                        : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        fifo_re                     : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        fifo_ept                    : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal tb16                     : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal fifo_re                  : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal fifo_ept                 : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    constant TDC_NUM_CHAN           : integer   := 10;
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tb_vec_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(5 downto 1);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tdc_dout_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(TDC_FWIDTH - 1 downto 0);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    --type tdc_hdout_type is array (1 to TDC_NUM_CHAN/2) of std_logic_vector(TDC_WIDTH - 1 downto 0);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:        intval := TDC_NUM_CHAN - cnt_num;           --forward/add
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    tb16                            : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    fifo_re                         : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    fifo_ept                        : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    signal tdc_clr_dlyln            : std_logic_vector(1 to TDC_NUM_CHAN)       := (others => '1');
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    signal fifo_ept_q0              : std_logic_vector(1 to TDC_NUM_CHAN)       := (others => '1');
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    signal fifo_ept_q1              : std_logic_vector(1 to TDC_NUM_CHAN)       := (others => '1');
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    for I in 1 to TDC_NUM_CHAN generate
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in 1 to TDC_NUM_CHAN/2 loop
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in 1 to TDC_NUM_CHAN/2 loop
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in TDC_NUM_CHAN/2+1 to TDC_NUM_CHAN loop
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in TDC_NUM_CHAN/2+1 to TDC_NUM_CHAN loop
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        tb16                            : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        fifo_re                         : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        fifo_ept                        : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal tb16                         : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal fifo_re                      : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal fifo_ept                     : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    TB_GEN: for I in 1 to TDC_NUM_CHAN generate
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        tb16                    : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        fifo_re                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        fifo_ept                : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    signal tdc_rden             : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    signal tdc_epty             : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal tb16                     : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal fifo_re                  : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        target_tb16             : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    alias NUM_ASICS is TDC_NUM_CHAN;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    signal target_tb16_i        : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);         
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal scrod_target_tb16        : std_logic_vector(1 to TDC_NUM_CHAN);    
+sim/ncvhdl.log:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+sim/ncvhdl.log:ncvhdl_p: *E,IDENTU (./../source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd,95|70): identifier (TDC_NUM_CHAN) is not declared [10.3].
+sim/readout_top1.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+sim/readout_simple_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+tb_finder.txt:source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tb_vec_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(5 downto 1);
+source/main/klmscint_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/main/klmscint_simple_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/main/backup/klmscint_simple_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        tb16                        : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        fifo_re                     : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        fifo_ept                    : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal tb16                     : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal fifo_re                  : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal fifo_ept                 : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    constant TDC_NUM_CHAN           : integer   := 10;
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tb_vec_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(5 downto 1);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tdc_dout_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(TDC_FWIDTH - 1 downto 0);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    --type tdc_hdout_type is array (1 to TDC_NUM_CHAN/2) of std_logic_vector(TDC_WIDTH - 1 downto 0);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:        intval := TDC_NUM_CHAN - cnt_num;           --forward/add
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    tb16                            : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    fifo_re                         : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    fifo_ept                        : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    signal tdc_clr_dlyln            : std_logic_vector(1 to TDC_NUM_CHAN)       := (others => '1');
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    signal fifo_ept_q0              : std_logic_vector(1 to TDC_NUM_CHAN)       := (others => '1');
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    signal fifo_ept_q1              : std_logic_vector(1 to TDC_NUM_CHAN)       := (others => '1');
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    for I in 1 to TDC_NUM_CHAN generate
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in 1 to TDC_NUM_CHAN/2 loop
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in 1 to TDC_NUM_CHAN/2 loop
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in TDC_NUM_CHAN/2+1 to TDC_NUM_CHAN loop
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in TDC_NUM_CHAN/2+1 to TDC_NUM_CHAN loop
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        tb16                            : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        fifo_re                         : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        fifo_ept                        : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal tb16                         : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal fifo_re                      : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal fifo_ept                     : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    TB_GEN: for I in 1 to TDC_NUM_CHAN generate
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        tb16                    : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        fifo_re                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        fifo_ept                : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    signal tdc_rden             : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    signal tdc_epty             : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal tb16                     : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal fifo_re                  : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        target_tb16             : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    alias NUM_ASICS is TDC_NUM_CHAN;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    signal target_tb16_i        : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);         
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal scrod_target_tb16        : std_logic_vector(1 to TDC_NUM_CHAN);    
+sim/ncvhdl.log:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+sim/ncvhdl.log:ncvhdl_p: *E,IDENTU (./../source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd,95|70): identifier (TDC_NUM_CHAN) is not declared [10.3].
+sim/readout_top1.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+sim/readout_simple_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+tb_finder.txt:source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tb_vec_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(5 downto 1);
+source/main/klmscint_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/main/klmscint_simple_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/main/backup/klmscint_simple_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+source/main/backup/klmscint_simple_top.vhd:    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        tb16                        : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        fifo_re                     : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:        fifo_ept                    : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal tb16                     : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal fifo_re                  : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/time_order/sim/source/time_order_tb.vhd:    signal fifo_ept                 : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    constant TDC_NUM_CHAN           : integer   := 10;
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tb_vec_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(5 downto 1);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tdc_dout_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(TDC_FWIDTH - 1 downto 0);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    --type tdc_hdout_type is array (1 to TDC_NUM_CHAN/2) of std_logic_vector(TDC_WIDTH - 1 downto 0);
+source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:        intval := TDC_NUM_CHAN - cnt_num;           --forward/add
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    tb16                            : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    fifo_re                         : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    fifo_ept                        : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    signal tdc_clr_dlyln            : std_logic_vector(1 to TDC_NUM_CHAN)       := (others => '1');
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    signal fifo_ept_q0              : std_logic_vector(1 to TDC_NUM_CHAN)       := (others => '1');
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    signal fifo_ept_q1              : std_logic_vector(1 to TDC_NUM_CHAN)       := (others => '1');
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:    for I in 1 to TDC_NUM_CHAN generate
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in 1 to TDC_NUM_CHAN/2 loop
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in 1 to TDC_NUM_CHAN/2 loop
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in TDC_NUM_CHAN/2+1 to TDC_NUM_CHAN loop
+source/interfaces/klm_scrod/tdc/source/tdc.vhd:                for I in TDC_NUM_CHAN/2+1 to TDC_NUM_CHAN loop
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        tb16                            : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        fifo_re                         : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:        fifo_ept                        : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal tb16                         : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal fifo_re                      : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    signal fifo_ept                     : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/tdc/sim/source/tdc_tb.vhd:    TB_GEN: for I in 1 to TDC_NUM_CHAN generate
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        tb16                    : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        fifo_re                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:        fifo_ept                : out std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    signal tdc_rden             : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/source/conc_intfc.vhd:    signal tdc_epty             : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal tb16                     : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal fifo_re                  : std_logic_vector(1 to TDC_NUM_CHAN)   := (others => '0');
+source/interfaces/klm_scrod/conc_intfc/sim/source/conc_intfc_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:        target_tb16             : in std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    alias NUM_ASICS is TDC_NUM_CHAN;
+source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd:    signal target_tb16_i        : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:        target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);         
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal target_tb16              : std_logic_vector(1 to TDC_NUM_CHAN);
+source/interfaces/klm_scrod/klm_scrod/sim/source/klm_scrod_tb.vhd:    signal scrod_target_tb16        : std_logic_vector(1 to TDC_NUM_CHAN);    
+sim/ncvhdl.log:    target_tb16                 : in std_logic_vector(1 to TDC_NUM_CHAN);
+sim/ncvhdl.log:ncvhdl_p: *E,IDENTU (./../source/interfaces/klm_scrod/klm_scrod/source/klm_scrod.vhd,95|70): identifier (TDC_NUM_CHAN) is not declared [10.3].
+sim/readout_top1.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_top1.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+sim/readout_simple_top.vhd:	signal internal_TXDCTRIG16 : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:--	signal internal_TXDCTRIG16_buf : std_logic_vector(1 to TDC_NUM_CHAN);-- All triger bits from all ASICs are here
+sim/readout_simple_top.vhd:--    target_tb16 => internal_TXDCTRIG16,	--                : in std_logic_vector(1 to TDC_NUM_CHAN); 
+tb_finder.txt:source/interfaces/klm_scrod/tdc/source/tdc_pkg.vhd:    type tb_vec_type is array (1 to TDC_NUM_CHAN) of std_logic_vector(5 downto 1);

@@ -1,0 +1,23 @@
+ncelab(64): 15.20-s033: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncelab(64)	15.20-s033: Started on Mar 26, 2018 at 13:28:02 HST
+ncelab
+    -warnmax 0
+    -messages
+    tb_readout_top2
+    -access +rwc
+
+ncelab: *W,ARCMRA: Elaborating the \WORK\.TB_READOUT_TOP2:BEHAVIOR, MRA (most recently analyzed) architecture.
+	Elaborating the design hierarchy:
+ncelab: *W,CUNOTB: component instance is not fully bound (:tb_readout_top2(behavior):uut) [File:tb_readout_top2.vhd, Line:369].
+ncelab: *W,DLNCOD: Intermediate file for entity WORK.readout_top1 (COD) <0x14463857> could not be read (no such object).
+\WORK\.READOUT_TOP1 (entity):
+	streams: 140, words: 17130
+	Building instance specific data structures.
+	Design hierarchy summary:
+		             Instances  Unique
+		Components:          2       1
+		Default bindings:    1       -
+		Processes:           5       5
+		Signals:           149     149
+	Writing initial simulation snapshot: \WORK\.TB_READOUT_TOP2:BEHAVIOR
+TOOL:	ncelab(64)	15.20-s033: Exiting on Mar 26, 2018 at 13:28:02 HST  (total: 00:00:00)
